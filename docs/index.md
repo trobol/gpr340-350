@@ -26,35 +26,35 @@ The player has two measurements that we use to eliminate hits, leg height (hl) a
 Using these we can eliminate any points that are too high, too low or do not contain enough room for the player. 
 
 Diagram 0.
-![](docs/img/img-0.png)
+![](img/img-0.PNG)
 
 ## find edges
 
 To find the edges of where the player can walk. We have to mark all the points that are next to points without a valid hit. 
 
 Diagram 1.
-![](docs/img/img-1.png)
+![](img/img-1.PNG)
 
 ## build rings
 
 From the grid of points we have to build the actual geometry we will move the player along. This involves grouping the points and stringing together the nodes from highest to lowest.
 
 Diagram 2.
-![](docs/img/img-2.png)
+![](img/img-2.PNG)
 
 ## project movement
 
 Now that we have a surface the player can walk on we have to move the player along it. To do this we project the desired movement direction along the rings we created, searching in nearby rings for an intersections with the desired ray. When we reach an edge or the maximum desired distance, that is the point the player moves to. 
 
 Diagram 3.
-![](docs/img/img-3.png)
+![](img/img-3.PNG)
 
 ## visualization 
 
 Because of the design of the system, we can build tools that will show exactly what the player will walk on, allowing developers to craft level geometry with confidence. 
 
-![](docs/img/img-4.png)
-![](docs/img/img-5.png)
+![](img/img-4.PNG)
+![](img/img-5.PNG)
 
 
 ## Sources
