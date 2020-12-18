@@ -59,6 +59,8 @@ Because of the design of the system, we can build tools that will show exactly w
 
 ## Sources
 
-Killing the Walk Monster - https://www.youtube.com/watch?v=YE8MVNMzpbo
-Walk Monster - https://caseymuratori.com/blog_0005
-Flood-fill Algorithm - https://www.hackerearth.com/practice/algorithms/graphs/flood-fill-algorithm/tutorial/
+[Killing the Walk Monster](https://www.youtube.com/watch?v=YE8MVNMzpbo)
+
+[Walk Monster](https://caseymuratori.com/blog_0005)
+
+[Flood-fill Algorithm](https://www.hackerearth.com/practice/algorithms/graphs/flood-fill-algorithm/tutorial/)
